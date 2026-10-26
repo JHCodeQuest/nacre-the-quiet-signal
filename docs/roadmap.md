@@ -16,7 +16,7 @@ Acceptance: developer has run the game and confirmed both buttons work after cor
 ### P1-02 | Scene state and linear navigation
 Status: Todo
 
-Replace ad hoc text changes with a small scene/state model. Separate authored content from drawing and event handling. Finish the current observe action: its click handler exists but its button is not drawn yet. Correct the window caption from Narce to Nacre. Add an information-gathering action and a clearly labelled advance action; every route follows the same ordered chapter.
+Replace ad hoc text changes with a small scene/state model. Separate authored content from drawing and event handling. Verify the newly drawn observe button and its unlock condition. Correct the window caption from Narce to Nacre. Add an information-gathering action and a clearly labelled advance action; every route follows the same ordered chapter.
 
 Acceptance: repeat interactions do not skip scenes; navigation cannot jump past required investigation. Check first, middle and final scenes and irrelevant input events. Depends on P1-01.
 

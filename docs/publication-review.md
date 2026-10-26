@@ -9,6 +9,6 @@ Scope: main.py, README.md, requirements.txt, LICENSE, .gitignore and public proj
 - Current dependency is pinned to pygame 2.6.1 to match the developer's reported working runtime. No dependency vulnerability scan has been performed; no assertion that this dependency is vulnerability-free is made.
 - The developer manually confirmed the opening scene and both buttons work. Initial publication is an early source prototype, not a finished game or packaged release. Automated gameplay coverage remains a roadmap task.
 
-An independent read-only review found two low-severity prototype issues: the window caption spells Nacre as Narce, and the observe click handler currently has no drawn button. Both are recorded in P1-02; they do not block sharing the explicitly unfinished prototype. Public roadmap descriptions were made self-contained after review.
+An independent read-only review found a low-severity title typo: the window caption spells Nacre as Narce. This is recorded in P1-02 and does not block sharing the explicitly unfinished prototype. A missing observe-button drawing block identified during review was added by the developer before the initial commit; the final source snapshot was inspected and includes it. Its runtime behaviour still needs verification. Public roadmap descriptions were made self-contained after review.
 
 Findings: no blocking secret exposure or unsafe input path identified in this source-only prototype. Packaged-build/dependency review and full gameplay validation remain required before a distributable game release.
