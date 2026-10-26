@@ -1,0 +1,15 @@
+.idea/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+saves/
+*.save.json
+build/
+dist/
+*.spec
+specs/
